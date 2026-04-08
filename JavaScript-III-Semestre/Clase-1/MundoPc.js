@@ -255,8 +255,8 @@ orden2.mostrarOrden();
 
 // Mostrar contadores
 console.log("=== CONTADORES ESTÁTICOS ===");
-console.log(Monitores creados: ${Monitor.contadorMonitores});
-console.log(Teclados creados: ${Teclado.contadorTeclados});
-console.log(Ratones creados: ${Raton.contadorRatones});
-console.log(Computadoras creadas: ${Computadora.contadorComputadoras});
-console.log(Órdenes creadas: ${Orden.contadorOrdenes});
+console.log(`Monitores creados: ${Monitor.contadorMonitores}`);
+console.log(`Teclados creados: ${Teclado.contadorTeclados}`);
+console.log(`Ratones creados: ${Raton.contadorRatones}`);
+console.log(`Computadoras creadas: ${Computadora.contadorComputadoras}`);
+console.log(`Órdenes creadas: ${Orden.contadorOrdenes}`);
