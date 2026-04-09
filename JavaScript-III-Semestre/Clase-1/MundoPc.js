@@ -225,16 +225,16 @@ class Orden {
 }
 
 // Crear dispositivos
-const monitor1 = new Monitor("Samsung", "24 pulgadas");
+const monitor1 = new Monitor("ViewSonic", "24 pulgadas");
 const teclado1 = new Teclado("Mecánico", "Logitech");
 const raton1 = new Raton("Óptico", "Razer");
 
-const monitor2 = new Monitor("LG", "27 pulgadas");
+const monitor2 = new Monitor("Valkyrie", "27 pulgadas");
 const teclado2 = new Teclado("Membrana", "HP");
 const raton2 = new Raton("Inalámbrico", "Logitech");
 
 // Crear computadoras
-const computadora1 = new Computadora("PC Gamer", monitor1, teclado1, raton1);
+const computadora1 = new Computadora("PC Workstation", monitor1, teclado1, raton1);
 const computadora2 = new Computadora("PC Oficina", monitor2, teclado2, raton2);
 const computadora3 = new Computadora("PC Diseño", monitor1, teclado2, raton1);
 
