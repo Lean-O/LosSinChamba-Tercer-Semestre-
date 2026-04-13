@@ -1,5 +1,4 @@
-__pycache__/
-# Configuraciones de PyCharm y NetBeans
+#Configuraciones de PyCharm y NetBeans
 .idea/
 nbproject/
 build/
