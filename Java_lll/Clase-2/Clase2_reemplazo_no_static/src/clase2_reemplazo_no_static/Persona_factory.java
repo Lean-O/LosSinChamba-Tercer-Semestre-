@@ -26,5 +26,6 @@ public class Persona_factory {
     @Override
     public String toString() {
         return "Persona_factory{idPersona=" + idPersona + "}";
+
     }
 }

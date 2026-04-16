@@ -16,6 +16,8 @@ de la variable de dónde sale su valor inicial.
         configuracionSistema = "Modo Producción - Activo";
         System.out.println("[BLOQUE STATIC] Se ejecutó automáticamente al cargar la clase.");
     }
+
+    
 // ==========================================================
 // 2. EL REEMPLAZO DEL BLOQUE ESTÁTICO (FORMA PROFESIONAL)
 // ==========================================================
