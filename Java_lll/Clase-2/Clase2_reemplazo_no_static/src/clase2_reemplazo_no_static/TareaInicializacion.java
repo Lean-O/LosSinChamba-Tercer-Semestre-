@@ -55,6 +55,16 @@ cualquier parte de la clase. Causa confusión en el flujo de lectura.
         System.out.println("[REEMPLAZO INSTANCIA] Se inicializó 'rolUsuario' dentro del CONSTRUCTOR.");
     }
 
+    @Override
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        sb.append("TareaInicializacion{");
+        sb.append("estadoUsuario=").append(estadoUsuario);
+        sb.append(", rolUsuario=").append(rolUsuario);
+        sb.append('}');
+        return sb.toString();
+    }
+
     public static void main(String[] args) {
         System.out.println("--- INICIO DE LA EJECUCIÓN ---");
 // Al crear el objeto, veremos el orden en la consola
