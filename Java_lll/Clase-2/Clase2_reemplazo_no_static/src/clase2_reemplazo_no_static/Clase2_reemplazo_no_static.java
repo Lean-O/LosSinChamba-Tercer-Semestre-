@@ -15,9 +15,10 @@ public class Clase2_reemplazo_no_static {
 
         */
         System.out.println("");
-        
+                
         TareaInicializacion t = new TareaInicializacion();
         System.out.println(t.toString());
+        
         
                 
     }
