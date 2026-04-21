@@ -6,3 +6,4 @@ dist/
 __pycache__/
 *.class
 Samira_Baz/
+*.pyc
