@@ -22,19 +22,8 @@ class Gerente extends Empleado{
         return `Gerente: ${super.obtenerDetalles()} depto: ${this._departamento}`;
     }
 }
-function imprimir( tipo ){ //Recibe un variable
-    console.log( tipo.obtenerDetalles() ); //Según el tipo que le pasemos, será la información
-    if( tipo instanceof Gerente){
-        console.log('Es un objeto de tipo Gerente');
-        console.log( tipo._departamento ) //Existe en Gerente
-    }
-    else if( tipo instanceof Empleado){
-        console.log('Es de tipo Empleado');
-        console.log( tipo._departamento ) //No existe en Empleado
-    }
-    else if( tipo instanceof Object){ //El orden siempre es jerárquico
-        console.log('Es de tipo Object'); //Clase padre de todas las clases
-    }
+function imprimir( tipo ){
+    console.log( tipo.obtenerDetalles() );
 }
 
 let gerente1 = new Gerente("Carlos", 5000, "Sistemas");
